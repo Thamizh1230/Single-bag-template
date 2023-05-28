@@ -200,7 +200,7 @@ body{
 
 .banner .symbol-1 img{
     position: absolute;
-    top: 1%;
+    top: -3%;
     right: 95%;
     width: 9%;
     height: auto;
@@ -208,17 +208,15 @@ body{
 
 .banner .symbol-2 img{
     position: absolute;
-    top: 0%;
+    top: -4%;
     right: 0%;
     width: 9%;
     height: auto;
 }
 .banner .symbol-3 img{
     position: absolute;
-
     width: 9%;
     height: auto;
-
     right: 5%;
     top: 82%;
 }
@@ -228,7 +226,7 @@ body{
     width: 9%;
     height: auto;
     right: 94%;
-    top: 75%;
+    top: 73%;
 }
 
 /*--------------------result section-----------------*/
@@ -237,7 +235,7 @@ body{
     text-align: center;
     font-weight: 600;
     font-size: 35px;
-    padding: 60px 0 20px 0;
+    padding: 85px 0 20px 0;
 }
 .best-result .result-paragraph{
     text-align: center;
@@ -287,7 +285,7 @@ body{
     
 }
 .offer-section .offer-header{
-    padding: 30px 0;
+    padding: 40px 0;
     color: #22205F;
     font-weight: 600;
 }
@@ -345,7 +343,8 @@ body{
 .business-header{
     color: #555;
     text-align: center;
-    padding: 10px 0;
+    padding: 30px 0 10px 0;
+    font-weight: 600;
 }
 .business-title{
     text-align: center;
@@ -365,37 +364,47 @@ body{
     padding-top: 120px;
     padding-left: 50px;
 }
+
 .singlebag .singlebag-header{
     color: #22205f;
     padding: 0 0 10px 0;
     font-weight: 600;
 }
+
 .singlebag .singlebag-paragraph{
     color: #555;
-    padding: 0 0 30px 0;
+    padding: 4px 0 30px 0;
     font-size: 18px;
 }
 
-
-.get-started  a{
+.get-started a {
     text-decoration: none;
     color: #22205f;
     transition: all 0.5s ease;
-   font-weight: 600;
-   
+    font-weight: 600;
 }
-.get-started a i{
+
+/* .get-started  a{
+
+     
+} */
+
+
+
+.get-started a i {
     color: #22205f;
     padding-left: 10px;
     transition: all 0.5s ease;
-    
-    
-    
 }
-.get-started a i:hover  {
+
+.get-started a i:hover {
+    transform: translateX(5px);
+}
+
+/* .get-started a i:hover  {
     transform: translateX(5px);
 
-}
+} */
 
 .online-business{
     background-image: url("../image/business/Grow-your-Online-business.jpg");
@@ -489,7 +498,7 @@ body{
 
 /*----------------our partner style-----------------------*/
 .partners{
-    padding: 20px 0;
+    padding: 20px 0 80px 0;
 }
 
 .partners .partner-header{
@@ -505,6 +514,96 @@ body{
     background-color: white;
     border: 1px solid white;
     box-shadow: 0 4px 9px 0px gray;
-    /* filter: grayscale(1); */
     opacity: 0.8;
 }
+
+.owl-carousel .owl-nav .disabled {
+    display: none;
+}
+
+.partner-box .owl-carousel .owl-item img {
+    display: inline-block;
+    width: 2000%;
+    height: auto;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 4px 9px 0px gray;
+    /* filter: grayscale(1); */
+    opacity: 0.8; 
+
+} 
+
+
+/*------------------store owner style------------------*/
+.store-owner{
+    padding: 30px 0;
+
+}
+.store-owner .store-banner{
+    background-image: url("../image/store-owners/1600-px-world-map-blue-dots-svg@2x-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: white;
+    padding: 80px;
+}
+.owner-header{
+    font-weight: 600;
+    color: #22205f;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+.owner-paragraph{
+    color: #555;
+    text-align: center;
+    padding: 5px 0 20px 0;
+}
+
+
+.store-box{
+    background-color: #FFF;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #EEE;
+    border-radius: 10px;
+
+}
+.store-box .store-img{
+    border-radius: 50%;
+    width: 12%;
+}
+/* .store-box .owl-carousel .owl-item img {
+	
+	display:inline-block;
+	width:60px;
+	height:auto;
+	border-radius:50%;
+}
+.store-box .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+.owl-dots{
+    text-align:center;
+    margin-top:30px;
+    
+}
+
+.owl-carousel button.owl-dot{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    border: 1px solid #3b4ef8;
+    background-color:white;
+    margin:0 3px;
+    margin-bottom:0
+    
+    
+}
+
+.owl-carousel button.owl-dot.active{
+    
+    background-color:#3b4ef8;
+    
+} */
+/* .store-span{
+    display: flex;
+} */
